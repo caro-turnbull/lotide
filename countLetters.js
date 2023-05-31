@@ -12,4 +12,13 @@ let countLetters = function(string){
   return results
 }
 
-console.log(countLetters("Lighthouse labs Ha"))
+/* /// not sure how to do assert equal, it shoudl equal an object
+const assertEqual = function(actual, expected) {
+  if (actual === expected) {
+    console.log(`Assertion Passed: ✅ ${actual} === ${expected}`)
+  } else if (actual !== expected) {
+    console.log(`Assertion Failed: ❌ ${actual} !== ${expected}`)
+  }
+};
+assertEqual(countLetters("LHL")), {L:2, H:1}
+*/
