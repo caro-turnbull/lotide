@@ -27,3 +27,4 @@ const results2 = maps(numbers, num => num[0]);
 
 assertEqualArrays(results1, [ 'g', 'c', 't', 'm', 't' ])
 assertEqualArrays(results2, [1,5,8,2])
+
